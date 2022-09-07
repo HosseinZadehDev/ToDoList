@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List | Hosseinzadeh.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="bars-icon.svg" alt="icon">
+        <input type="text" placeholder="کار جدید ...">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">همه کار ها</span>
+          <span id="pending">درحال انجام</span>
+          <span id="completed">انجام شده</span>
+        </div>
+        <button class="clear-btn">حذف همه</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <div class="footer">
+      <h3>Coded by hosseinzadeh.dev</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
